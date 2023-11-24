@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+#logo {
+    border-radius: 50%;
+    width: 100px; 
+    height: 100px;
+    border-style:ridge;
+    border-color: black;
+}
+body{ background-image:url(../imagenes/vector-DEC-2020-55_generated.jpg) ;
+    background-size: cover;
+    color:black;
+    font-family: 'Oswald';
+    cursor: default;
+}
+
+#encabezado {
+    font-size: 15px;
+    font-family: 'Press Start 2P';
+    display: flex;
+}
+.contenido {
+    font-size: 20px;
+    background-color: rgba(255, 255, 255, 0.397);
+    border-radius: .5cm;
+    padding: .3cm;
+    margin: 18px;
+}
+.contenido img  {width: 200px;
+}
+a{font-size: 330%;}
+
+#titulo-abreviado{
+    display: none;
+}
+#titulo_pequeño{
+    display: none;
+}
+button {
+    display: block;
+    font-size: 20px;
+    background-color:rgba(10, 111, 170, 0.623) ;
+    border-radius: 25px;
+    padding: 5px;
+    margin: 20px;
+    border-style: groove;
+    cursor:pointer;
+}
+#info{
+display:flex ;
+}
+#fin {
+     text-align: center;
+}
+#armas {
+    display: flex;
+}
+#armas div div {
+    margin: 10px;
+}
